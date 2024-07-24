@@ -1,0 +1,2224 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">6/10/2024 2:21:31 PM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>              <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>                                     <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+                      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:21:47 PM</span> / <span>22296.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:21:47 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:22:09 PM</span>
+                  <span class='badge badge-default'>22296.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>22289.44</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="2">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142152.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142152.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142154.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142154.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142156.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142156.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142158.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142158.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142200.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142200.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142202.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142202.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142203.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142203.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142205.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142205.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Error toast message appeared: The email address is badly formatted.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142208.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142208.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:22:21 PM</span> / <span>20362.26 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:22:21 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:22:41 PM</span>
+                  <span class='badge badge-default'>20362.26 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>20362.26</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="4">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142226.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142226.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142228.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142228.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142229.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142229.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142231.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142231.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142233.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142233.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142234.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142234.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142236.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142236.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142237.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142237.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22 PM</td>
+        <td>
+Error toast message appeared: The email address is badly formatted.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142241.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142241.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:22:54 PM</span> / <span>45427.4 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:22:54 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:23:39 PM</span>
+                  <span class='badge badge-default'>45427.4 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li title="Time taken"><span class='badge badge-default'>45427.4</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="6">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142259.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142259.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142303.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142303.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142305.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142305.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142307.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142307.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142308.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142308.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142310.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142310.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142311.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142311.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142313.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142313.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:23 PM</td>
+        <td>
+Some Other Error appeared in screenshot          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142338.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142338.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:23:51 PM</span> / <span>41959.03 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:23:51 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:24:33 PM</span>
+                  <span class='badge badge-default'>41959.03 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li title="Time taken"><span class='badge badge-default'>41959.03</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="8">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:23 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142356.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142356.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142359.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142359.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142400.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142400.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142403.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142403.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142404.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142404.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142405.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142405.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142407.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142407.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142409.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142409.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:24 PM</td>
+        <td>
+Some Other Error appeared in screenshot          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142432.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142432.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:24:46 PM</span> / <span>43668.99 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:24:46 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:25:29 PM</span>
+                  <span class='badge badge-default'>43668.99 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li title="Time taken"><span class='badge badge-default'>43668.99</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="10">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142451.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142451.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142453.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142453.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142455.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142455.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:24 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142457.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142457.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142459.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142459.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142500.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142500.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142502.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142502.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142503.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142503.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:25 PM</td>
+        <td>
+Some Other Error appeared in screenshot          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142529.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142529.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:25:42 PM</span> / <span>19836.21 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:25:42 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:26:01 PM</span>
+                  <span class='badge badge-default'>19836.21 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>19836.21</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="12">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142546.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142546.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142548.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142548.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142550.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142550.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142551.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142551.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142553.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142553.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142554.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142554.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142555.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142555.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142558.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142558.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Error toast message appeared: The email address is badly formatted.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142601.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142601.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:26:13 PM</span> / <span>44832.31 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:26:13 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:26:58 PM</span>
+                  <span class='badge badge-default'>44832.31 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li title="Time taken"><span class='badge badge-default'>44832.31</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="14">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142618.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142618.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142621.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142621.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142623.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142623.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142625.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142625.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142627.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142627.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142628.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142628.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142629.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142629.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:26 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142631.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142631.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:26 PM</td>
+        <td>
+Some Other Error appeared in screenshot          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142657.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142657.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:27:10 PM</span> / <span>26309.49 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:27:10 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:27:37 PM</span>
+                  <span class='badge badge-default'>26309.49 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>26309.49</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="16">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142715.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142715.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142717.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142717.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142718.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142718.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142720.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142720.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142722.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142722.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142723.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142723.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142725.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142725.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142726.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142726.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Error toast message appeared: A network error (such as timeout, interrupted connection or unreachable host) has occurred.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142736.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142736.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:27:49 PM</span> / <span>22721.05 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:27:49 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:28:11 PM</span>
+                  <span class='badge badge-default'>22721.05 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>22721.05</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="18">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142753.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142753.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142756.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142756.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:27 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142758.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142758.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142800.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142800.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142802.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142802.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142804.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142804.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142805.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142805.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142808.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142808.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Error toast message appeared: The email address is badly formatted.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142811.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142811.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:28:23 PM</span> / <span>22514.61 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:28:23 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:28:46 PM</span>
+                  <span class='badge badge-default'>22514.61 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>22514.61</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="20">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142828.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142828.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142830.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142830.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142832.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142832.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142835.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142835.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142837.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142837.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142838.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142838.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142839.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142839.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142841.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142841.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:28 PM</td>
+        <td>
+Error toast message appeared: The email address is badly formatted.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142845.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142845.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:28:58 PM</span> / <span>21662.92 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:28:58 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:29:20 PM</span>
+                  <span class='badge badge-default'>21662.92 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>21662.92</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="22">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142903.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142903.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142905.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142905.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142907.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142907.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142909.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142909.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142911.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142911.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142912.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142912.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142914.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142914.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142916.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142916.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Error toast message appeared: The email address is badly formatted.          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142919.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142919.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SignUpWithInvalidUserInvalidPassword_TC004</p>
+            <p class="text-sm">
+              <span>2:29:32 PM</span> / <span>21665.68 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">SignUpWithInvalidUserInvalidPassword_TC004</h5>
+                  <span class='badge badge-success'>6/10/2024 2:29:32 PM</span>
+                  <span class='badge badge-danger'>6/10/2024 2:29:53 PM</span>
+                  <span class='badge badge-default'>21665.68 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li title="Time taken"><span class='badge badge-default'>21665.68</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="24">SignUpPage</div>
+                      </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142936.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142936.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142938.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142938.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142940.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142940.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142943.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142943.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142945.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142945.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142947.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142947.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142948.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142948.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:29 PM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142951.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142951.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:29 PM</td>
+        <td>
+Success toast message appeared: Successfully added account          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142953.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240610142953.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+                    
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>6/10/2024 2:21:31 PM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>6/10/2024 2:29:54 PM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>7</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>5</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'>
+            <b>7</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>5</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Steps</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='child-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>7</b> steps passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>5</b> steps failed, 
+            <b>0</b> skipped, <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>103</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>5</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "SignUpWithInvalidUserInvalidPassword_TC004":22296.4372,"SignUpWithInvalidUserInvalidPassword_TC004":20362.2641,"SignUpWithInvalidUserInvalidPassword_TC004":45427.399,"SignUpWithInvalidUserInvalidPassword_TC004":41959.0331,"SignUpWithInvalidUserInvalidPassword_TC004":43668.9859,"SignUpWithInvalidUserInvalidPassword_TC004":19836.2083,"SignUpWithInvalidUserInvalidPassword_TC004":44832.3112,"SignUpWithInvalidUserInvalidPassword_TC004":26309.4858,"SignUpWithInvalidUserInvalidPassword_TC004":22721.0488,"SignUpWithInvalidUserInvalidPassword_TC004":22514.6075,"SignUpWithInvalidUserInvalidPassword_TC004":21662.92,"SignUpWithInvalidUserInvalidPassword_TC004":21665.6777 };
+  </script>
+  <div class="row">
+              </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 12,
+    childCount: 12,
+    grandChildCount: 0,
+    eventsCount: 108,
+
+passParent:7,failParent:5,warningParent:0,skipParent:0,    
+passChild:7,failChild:5,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:103,failEvents:5,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>

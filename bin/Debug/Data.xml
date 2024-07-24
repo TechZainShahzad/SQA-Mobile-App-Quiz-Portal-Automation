@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+	<Execution>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>invaliduser1</username>
+			<password>invalidpassword1</password>
+			<!-- Expected: Login should fail with invalid credentials -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>invaliduser2</username>
+			<password>invalidpassword2</password>
+			<!-- Expected: Login should fail with invalid credentials -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>validuser</username>
+			<password>validpassword</password>
+			<!-- Expected: Login should fail with invalid credentials -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username></username>
+			<password>validpassword</password>
+			<!-- Expected: Both email and password are missing -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>validuser</username>
+			<password></password>
+			<!-- Expected: Password is missing -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username></username>
+			<password></password>
+			<!-- Expected: Both email and password are missing -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>invalidemail</username>
+			<password>validpassword</password>
+			<!-- Expected: Invalid email format provided -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>validemail@example.com</username>
+			<password>short</password>
+			<!-- Expected: Password should be at least 6 characters -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>validemail@example.com</username>
+			<password>invalidpassword</password>
+			<!-- Expected: Invalid password provided -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+		<LoginWithInvalidUserInvalidPassword_TC001>
+			<username>validemail@example.com</username>
+			<password>validpassword</password>
+			<!-- Expected: Network error occurred during login -->
+		</LoginWithInvalidUserInvalidPassword_TC001>
+
+
+		<LoginWithValidUserValidPassword_TC002>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+		</LoginWithValidUserValidPassword_TC002>
+		<LoginWithValidUserValidPassword_TC002>
+			<username>test@zain.com</username>
+			<password>password1</password>
+		</LoginWithValidUserValidPassword_TC002>
+		<LoginWithValidUserValidPassword_TC002>
+			<username>check@zain.com</username>
+			<password>securepass2</password>
+		</LoginWithValidUserValidPassword_TC002>
+
+
+
+
+
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>john@zain.com</email>
+			<password>password1</password>
+			<fullname>John Doe</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>jane@zain.com</email>
+			<password>securepass2</password>
+			<fullname>Jane Smith</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>mike@zain.com</email>
+			<password>strongpass3</password>
+			<fullname>Michael Johnson</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>emily@zain.com</email>
+			<password>password4me</password>
+			<fullname>Emily Davis</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>chris@zain.com</email>
+			<password>mypassword5</password>
+			<fullname>Christopher Brown</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>sarah@zain.com</email>
+			<password>passw0rd6</password>
+			<fullname>Sarah Wilson</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>alex@zain.com</email>
+			<password>alexpass7</password>
+			<fullname>Alexander Moore</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>lisa@zain.com</email>
+			<password>lisapass8</password>
+			<fullname>Lisa Taylor</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>daniel@zain.com</email>
+			<password>danielpwd9</password>
+			<fullname>Daniel Anderson</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+		<SignUpWithValidUserValidPassword_TC003>
+			<email>emma@zain.com</email>
+			<password>emmapass10</password>
+			<fullname>Emma Thomas</fullname>
+		</SignUpWithValidUserValidPassword_TC003>
+
+
+
+		<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>okok</email>
+				<!-- Invalid email format -->
+				<password>12345</password>
+				<!-- Password too short -->
+				<fullname>saqlain</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>123</email>
+				<!-- Invalid email format -->
+				<password>12345</password>
+				<!-- Password too short -->
+				<fullname>Zain Shahzad</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>userexample.com</email>
+				<!-- Missing '@' -->
+				<password></password>
+				<!-- Missing password -->
+				<fullname>Invalid User</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email></email>
+				<!-- Missing email -->
+				<password>123456</password>
+				<fullname>No Email</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>user@</email>
+				<!-- Missing domain -->
+				<password></password>
+				<!-- Missing password -->
+				<fullname>No Domain</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>@example.com</email>
+				<!-- Missing local part -->
+				<password>123</password>
+				<!-- Password too short -->
+				<fullname>No Local Part</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>user@@example.com</email>
+				<!-- Double '@' -->
+				<password>123456</password>
+				<fullname>Double At</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>user@example</email>
+				<!-- Missing top-level domain -->
+				<password>short</password>
+				<!-- Password too short -->
+				<fullname>No TLD</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>user@.com</email>
+				<!-- Missing domain name -->
+				<password>password</password>
+				<fullname>No Domain Name</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+			<SignUpWithInvalidUserInvalidPassword_TC004>
+				<email>user@domain..com</email>
+				<!-- Double dot in domain -->
+				<password>12345</password>
+				<!-- Password too short -->
+				<fullname>Double Dot</fullname>
+			</SignUpWithInvalidUserInvalidPassword_TC004>
+		<SignUpWithInvalidUserInvalidPassword_TC004>
+			<email>user@domain123..com</email>
+			<!-- Double dot in domain -->
+			<password>123456</password>
+			<!-- Password too short -->
+			<fullname>Not Successed test</fullname>
+		</SignUpWithInvalidUserInvalidPassword_TC004>
+		<SignUpWithInvalidUserInvalidPassword_TC004>
+			<email>user@domain123.com</email>
+			<!-- Double dot in domain -->
+			<password>123456</password>
+			<!-- Password too short -->
+			<fullname>Successed test</fullname>
+		</SignUpWithInvalidUserInvalidPassword_TC004>
+		
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>100</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>100</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>100</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1100</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1100</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1100</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1011</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1011</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1011</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>10100</three>
+			<four>1011</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1101</two>
+			<three>1110</three>
+			<four>100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>100</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>100</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>111</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform addition operations</one>
+			<two>1111</two>
+			<three>10100</three>
+			<four>1100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>100</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>100</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>100</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>111</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>111</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>111</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform multiplication operations</one>
+			<two>1001</two>
+			<three>11010</three>
+			<four>111</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>11010</three>
+			<four>1011</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>100</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>100</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>100</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>111</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>111</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>111</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>111</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>1100</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>1100</four>
+			<five>1110</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>1100</four>
+			<five>1010</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>1100</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>1011</four>
+			<five>1100</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+		
+		<AttemptCoal_BinaryDivision_Quiz_TC005>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<one>To perform division operations</one>
+			<two>1111</two>
+			<three>1001</three>
+			<four>1011</four>
+			<five>1111</five>
+		</AttemptCoal_BinaryDivision_Quiz_TC005>
+
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of x in the equation: (x + 4)/2 = 17/4?</Question>
+			<One>7</One>
+			<Two>8.5</Two>
+			<Three>3.5</Three>
+			<Four>6</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of y in the equation: (2y - 3) = 11?</Question>
+			<One>5</One>
+			<Two>7</Two>
+			<Three>6</Three>
+			<Four>8</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of z in the equation: 3z + 5 = 20?</Question>
+			<One>3</One>
+			<Two>5</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>1</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of a in the equation: (a/4) + 2 = 6?</Question>
+			<One>16</One>
+			<Two>12</Two>
+			<Three>8</Three>
+			<Four>10</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of b in the equation: (5b - 7)/3 = 4?</Question>
+			<One>5</One>
+			<Two>7</Two>
+			<Three>6</Three>
+			<Four>8</Four>
+			<Correct>1</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of c in the equation: 2c + 8 = 18?</Question>
+			<One>4</One>
+			<Two>6</Two>
+			<Three>5</Three>
+			<Four>7</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of d in the equation: (d - 5)/3 = 7?</Question>
+			<One>21</One>
+			<Two>22</Two>
+			<Three>23</Three>
+			<Four>24</Four>
+			<Correct>4</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of e in the equation: 4e - 3 = 17?</Question>
+			<One>5</One>
+			<Two>4</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>1</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of f in the equation: (f/5) + 3 = 7?</Question>
+			<One>15</One>
+			<Two>20</Two>
+			<Three>25</Three>
+			<Four>30</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of g in the equation: 3g + 9 = 24?</Question>
+			<One>5</One>
+			<Two>4</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of h in the equation: (2h - 6)/4 = 3?</Question>
+			<One>8</One>
+			<Two>9</Two>
+			<Three>10</Three>
+			<Four>11</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of i in the equation: 5i + 7 = 32?</Question>
+			<One>4</One>
+			<Two>5</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>1</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of j in the equation: (3j + 4)/2 = 10?</Question>
+			<One>4</One>
+			<Two>5</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of k in the equation: 4k - 5 = 11?</Question>
+			<One>4</One>
+			<Two>5</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>1</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of l in the equation: (l/3) + 6 = 9?</Question>
+			<One>6</One>
+			<Two>7</Two>
+			<Three>8</Three>
+			<Four>9</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of m in the equation: 2m + 8 = 22?</Question>
+			<One>5</One>
+			<Two>6</Two>
+			<Three>7</Three>
+			<Four>8</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of n in the equation: (n - 2)/5 = 4?</Question>
+			<One>18</One>
+			<Two>20</Two>
+			<Three>22</Three>
+			<Four>24</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of p in the equation: (3p + 9)/2 = 15?</Question>
+			<One>10</One>
+			<Two>11</Two>
+			<Three>12</Three>
+			<Four>13</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of q in the equation: (2q - 5)/3 = 7?</Question>
+			<One>11</One>
+			<Two>12</Two>
+			<Three>13</Three>
+			<Four>14</Four>
+			<Correct>4</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of r in the equation: (r + 3)/4 = 5?</Question>
+			<One>17</One>
+			<Two>18</Two>
+			<Three>19</Three>
+			<Four>20</Four>
+			<Correct>4</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of s in the equation: 5s - 8 = 12?</Question>
+			<One>4</One>
+			<Two>5</Two>
+			<Three>6</Three>
+			<Four>7</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of t in the equation: (t - 4)/2 = 6?</Question>
+			<One>16</One>
+			<Two>18</Two>
+			<Three>20</Three>
+			<Four>22</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of u in the equation: 3u + 7 = 25?</Question>
+			<One>6</One>
+			<Two>7</Two>
+			<Three>8</Three>
+			<Four>9</Four>
+			<Correct>3</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of v in the equation: (4v - 9)/3 = 5?</Question>
+			<One>8</One>
+			<Two>9</Two>
+			<Three>10</Three>
+			<Four>11</Four>
+			<Correct>2</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+		<Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+
+			<Question>What is the value of w in the equation: 2w - 7 = 11?</Question>
+			<One>7</One>
+			<Two>8</Two>
+			<Three>9</Three>
+			<Four>10</Four>
+			<Correct>4</Correct>
+		</Attempt_To_Add_New_Questions_In_Existing_Quizs_TC006>
+
+
+
+
+
+
+
+		<Attempt_To_Check_Transcript_TC007>
+			<username>zain@zain.com</username>
+			<password>123456</password>
+		</Attempt_To_Check_Transcript_TC007>
+
+
+
+	</Execution>
+</Automation>

@@ -1,0 +1,1498 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">6/16/2024 10:31:59 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>              <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>                                     <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+                      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AttemptCoal_BinaryDivision_Quiz_TC005</p>
+            <p class="text-sm">
+              <span>10:32:15 AM</span> / <span>62958.25 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AttemptCoal_BinaryDivision_Quiz_TC005</h5>
+                  <span class='badge badge-success'>6/16/2024 10:32:15 AM</span>
+                  <span class='badge badge-danger'>6/16/2024 10:33:18 AM</span>
+                  <span class='badge badge-default'>62958.25 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>16350.34</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="2">LoginPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103220.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103220.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103222.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103222.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103225.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103225.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103227.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103227.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103229.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103229.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Successfully Log In by This: Expectedly reached the Home Page          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103231.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103231.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>46603.91</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="3">Attempt Coal Binary Div Quiz</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103233.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103233.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103238.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103238.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103241.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103241.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103243.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103243.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103246.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103246.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103249.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103249.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103252.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103252.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103257.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103257.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103300.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103300.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103303.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103303.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103306.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103306.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103309.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103309.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103318.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103318.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AttemptCoal_BinaryDivision_Quiz_TC005</p>
+            <p class="text-sm">
+              <span>10:33:32 AM</span> / <span>54963.96 ms</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-fail">AttemptCoal_BinaryDivision_Quiz_TC005</h5>
+                  <span class='badge badge-success'>6/16/2024 10:33:32 AM</span>
+                  <span class='badge badge-danger'>6/16/2024 10:34:27 AM</span>
+                  <span class='badge badge-default'>54963.96 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>14745.16</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="5">LoginPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103336.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103336.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103338.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103338.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103341.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103341.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103342.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103342.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103344.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103344.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Successfully Log In by This: Expectedly reached the Home Page          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103346.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103346.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li title="Time taken"><span class='badge badge-default'>40218.8</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="6">Attempt Coal Binary Div Quiz</div>
+                      </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103348.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103348.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103352.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103352.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Failed: OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at QuizPortal.CorePage.Click(String xpath) in C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\CorePage.cs:line 61          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103355.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103355.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:33 AM</td>
+        <td>
+Clicked Failed: OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at QuizPortal.CorePage.Click(String xpath) in C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\CorePage.cs:line 61          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103357.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103357.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Failed: OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at QuizPortal.CorePage.Click(String xpath) in C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\CorePage.cs:line 61          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103359.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103359.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103402.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103402.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Failed: OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at QuizPortal.CorePage.Click(String xpath) in C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\CorePage.cs:line 61          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103404.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103404.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103407.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103407.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Failed: OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at QuizPortal.CorePage.Click(String xpath) in C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\CorePage.cs:line 61          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103409.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103409.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103413.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103413.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Failed: OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at QuizPortal.CorePage.Click(String xpath) in C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\CorePage.cs:line 61          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103415.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103415.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103418.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103418.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103426.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103426.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AttemptCoal_BinaryDivision_Quiz_TC005</p>
+            <p class="text-sm">
+              <span>10:34:40 AM</span> / <span>61165.78 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AttemptCoal_BinaryDivision_Quiz_TC005</h5>
+                  <span class='badge badge-success'>6/16/2024 10:34:40 AM</span>
+                  <span class='badge badge-danger'>6/16/2024 10:35:41 AM</span>
+                  <span class='badge badge-default'>61165.78 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>14263.34</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="8">LoginPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103444.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103444.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103446.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103446.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103448.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103448.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103450.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103450.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103451.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103451.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Successfully Log In by This: Expectedly reached the Home Page          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103454.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103454.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>46902.44</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="9">Attempt Coal Binary Div Quiz</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103456.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103456.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103501.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103501.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103505.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103505.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103509.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103509.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103511.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103511.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103514.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103514.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103517.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103517.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103521.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103521.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103523.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103523.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103527.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103527.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103530.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103530.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103533.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103533.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103541.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103541.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">AttemptCoal_BinaryDivision_Quiz_TC005</p>
+            <p class="text-sm">
+              <span>10:35:55 AM</span> / <span>64215.76 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">AttemptCoal_BinaryDivision_Quiz_TC005</h5>
+                  <span class='badge badge-success'>6/16/2024 10:35:55 AM</span>
+                  <span class='badge badge-danger'>6/16/2024 10:36:59 AM</span>
+                  <span class='badge badge-default'>64215.76 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+                              </div>
+            </div>
+
+
+  <div class="mt-4">
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>16003.03</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="11">LoginPage</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103559.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103559.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103602.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103602.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103604.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103604.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Data Entered Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103606.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103606.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103608.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103608.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Successfully Log In by This: Expectedly reached the Home Page          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103610.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103610.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+      <div class="card">
+        <div class="card-header">
+            <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li title="Time taken"><span class='badge badge-default'>48212.72</span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <div class="node" id="12">Attempt Coal Binary Div Quiz</div>
+                      </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <div class="detail-body mt-4">
+              
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103612.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103612.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103616.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103616.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103620.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103620.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103623.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103623.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103626.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103626.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103629.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103629.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103632.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103632.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103637.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103637.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103640.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103640.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103643.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103643.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103647.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103647.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103650.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103650.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36 AM</td>
+        <td>
+Clicked Successfully          
+  <div class="row mb-3">
+   <div class="col-md-3">
+         <img data-featherlight='C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103658.png' src="C:\Users\Zainm\source\repos\QuizPortal\QuizPortal\ExtentReports\images\20240616103658.png">
+      </div>
+ </div>
+        </td>
+      </tr>
+  </tbody>
+</table>            </div>
+                      </div>
+        </div>
+              </div>
+  </div>
+</div> 
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+                    
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>6/16/2024 10:31:59 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>6/16/2024 10:37:01 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>3</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>1</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'>
+            <b>3</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>1</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Steps</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='child-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>7</b> steps passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>1</b> steps failed, 
+            <b>0</b> skipped, <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>70</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>6</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "AttemptCoal_BinaryDivision_Quiz_TC005":62958.2497,"AttemptCoal_BinaryDivision_Quiz_TC005":54963.957,"AttemptCoal_BinaryDivision_Quiz_TC005":61165.7777,"AttemptCoal_BinaryDivision_Quiz_TC005":64215.7569 };
+  </script>
+  <div class="row">
+              </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 4,
+    childCount: 8,
+    grandChildCount: 0,
+    eventsCount: 76,
+
+passParent:3,failParent:1,warningParent:0,skipParent:0,    
+passChild:7,failChild:1,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:70,failEvents:6,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
