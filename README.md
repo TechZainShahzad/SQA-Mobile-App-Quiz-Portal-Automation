@@ -2,6 +2,11 @@
 
 This project demonstrates a comprehensive automation testing framework for the "Quiz Portal" mobile app, developed using Selenium, Microsoft Visual Studio, C#, and Appium. The framework is designed to automate various functionalities of the app, ensuring efficiency and coverage in testing.
 
+
+https://github.com/user-attachments/assets/cda224b4-4504-41a6-ac96-d72de03e92c2
+
+
+
 ### Features
 
 - **Full Automation Testing**: Performed using Selenium in Microsoft Visual Studio with C#.
