@@ -69,10 +69,6 @@ The framework generates detailed reports using ExtentReports, displaying test pa
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-### License
-
-This project is licensed under the MIT License.
-
 ### Contact
 
 For any queries or issues, please contact [muhammadzainshahzad7@gmail.com](mailto:muhammadzainshahzad7@gmail.com).
